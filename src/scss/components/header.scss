@@ -1,0 +1,53 @@
+.header {
+  padding: 30px 0;
+}
+.header__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: Poppins, 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.logo__color {
+  color: #939393;
+}
+.header__list {
+  display: flex;
+  font-family: Poppins, 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #263238;
+}
+
+.header__item {
+  padding: 5px 15px;
+}
+
+.header__button {
+  font-family: Poppins, 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  padding: 17px 50px;
+
+  color: #000000;
+
+  border: 2px solid #263238;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

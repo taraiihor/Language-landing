@@ -3,6 +3,9 @@
 @import './components/header';
 @import './components/hero';
 @import './components/skills';
+@import './components/about';
+@import './components/pricing';
+@import './components/contact';
 @import './components/footer';
 
 .container {
@@ -10,4 +13,8 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+body {
+  font-family: Poppins, sans-serif;
 }

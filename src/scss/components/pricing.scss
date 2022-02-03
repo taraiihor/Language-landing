@@ -28,6 +28,8 @@
   margin: -7px;
 }
 .picing__item {
+  display: flex;
+  flex-direction: column;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 435px;
@@ -49,6 +51,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  flex: 1 1 auto;
 
   color: #8f95a5;
 }

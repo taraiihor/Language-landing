@@ -1,4 +1,6 @@
 .header {
+  position: fixed;
+  width: 100%;
   padding: 30px 0;
 }
 .header__section {
@@ -15,12 +17,20 @@
   /* identical to box height */
 
   color: #000000;
+
+  @media screen and (max-width: 992px) {
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
 .logo__color {
   color: #939393;
 }
 .header__list {
   display: flex;
+}
+
+.header__item {
   font-family: Poppins, 'Mulish', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -28,11 +38,14 @@
   line-height: 30px;
   /* identical to box height */
 
-  color: #263238;
-}
-
-.header__item {
   padding: 5px 15px;
+  & > a {
+    color: #263238;
+  }
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .header__button {
@@ -47,7 +60,19 @@
 
   color: #000000;
 
+  cursor: pointer;
+
   border: 2px solid #263238;
   box-sizing: border-box;
   border-radius: 5px;
+
+  @media screen and (max-width: 992px) {
+    padding: 12px 40px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+.header__activ {
+  background-color: rgba(255, 255, 255, 0.7);
 }

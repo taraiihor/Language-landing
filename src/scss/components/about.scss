@@ -7,6 +7,12 @@
 }
 .about__context {
   padding-right: 100px;
+  @media screen and (max-width: 992px) {
+    padding-right: 60px;
+  }
+  @media screen and (max-width: 767px) {
+    padding-right: 50px;
+  }
 }
 .about__title {
   margin-bottom: 25px;
@@ -17,6 +23,15 @@
   /* identical to box height, or 167% */
 
   color: #000000;
+  @media screen and (max-width: 992px) {
+    font-size: 36px;
+    line-height: 80px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 80px;
+  }
 }
 .about__text {
   margin-bottom: 35px;
@@ -27,6 +42,15 @@
   line-height: 30px;
 
   color: #8f95a5;
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 
 .about__list {
@@ -44,6 +68,14 @@
   /* identical to box height, or 167% */
 
   color: #2a3246;
+  @media screen and (max-width: 992px) {
+    font-size: 30px;
+    line-height: 80px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 22px;
+    line-height: 80px;
+  }
 }
 .about__item-text {
   font-style: normal;
@@ -53,4 +85,18 @@
   /* identical to box height */
 
   color: #8f95a5;
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+.about__image > img {
+  @media screen and (max-width: 992px) {
+    height: 336px;
+  }
 }

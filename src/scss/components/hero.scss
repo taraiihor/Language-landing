@@ -10,6 +10,9 @@
   @media screen and (max-width: 992px) {
     padding-right: 50px;
   }
+  @media screen and (max-width: 767px) {
+    padding-right: 20px;
+  }
 }
 .hero__title {
   margin-bottom: 40px;
@@ -27,6 +30,11 @@
     font-size: 48px;
     line-height: 64px;
   }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 23px;
+    font-size: 36px;
+    line-height: 45px;
+  }
 }
 .hero__paragraf {
   margin-bottom: 60px;
@@ -42,6 +50,11 @@
     margin-bottom: 33px;
     font-size: 20px;
     line-height: 30px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 .hero__button {
@@ -66,6 +79,11 @@
     padding: 22px 78px;
     font-size: 24px;
     line-height: 36px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 20px 70px;
+    font-size: 18px;
+    line-height: 27px;
   }
 }
 .hero__img {

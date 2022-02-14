@@ -7,9 +7,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-  //   justify-content: center;
+  @media screen and (max-width: 992px) {
+    height: 250px;
+  }
 }
 .pricing__img > img {
+  width: 100%;
 }
 .pricing__title {
   text-align: center;
@@ -21,6 +24,10 @@
   /* identical to box height, or 167% */
 
   color: #000000;
+  @media screen and (max-width: 992px) {
+    font-size: 36px;
+    line-height: 80px;
+  }
 }
 .pricing__list {
   display: flex;
@@ -34,6 +41,9 @@
   padding-bottom: 10px;
   width: 435px;
   margin: 7px;
+  @media screen and (max-width: 992px) {
+    width: 320px;
+  }
 }
 .picing__item-title {
   margin-bottom: 15px;
@@ -44,6 +54,10 @@
   /* identical to box height, or 160% */
 
   color: #263238;
+  @media screen and (max-width: 992px) {
+    font-size: 22px;
+    line-height: 34px;
+  }
 }
 .picing__item-text {
   margin-bottom: 25px;
@@ -54,6 +68,10 @@
   flex: 1 1 auto;
 
   color: #8f95a5;
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .picing__item-price {
   font-style: normal;
@@ -63,6 +81,10 @@
   /* identical to box height */
 
   color: #263238;
+  @media screen and (max-width: 992px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 .picing__item-currency {
   font-style: normal;
@@ -72,4 +94,19 @@
   /* identical to box height */
 
   color: #546269;
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.pricing__item-container {
+  max-width: 240px;
+  padding: 5px 10px;
+
+  background-color: #eeeeee;
+  border-radius: 5px;
+
+  @media screen and (max-width: 992px) {
+    max-width: 205px;
+  }
 }

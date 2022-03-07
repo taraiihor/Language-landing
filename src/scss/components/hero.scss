@@ -1,8 +1,11 @@
 .hero__section {
-  padding-top: 134px;
+  padding-top: 90px;
   display: flex;
   align-items: center;
   padding-bottom: 70px;
+  @media screen and (max-width: 575px) {
+    flex-direction: column-reverse;
+  }
 }
 .hero__text {
   width: 50%;
@@ -12,6 +15,11 @@
   }
   @media screen and (max-width: 767px) {
     padding-right: 20px;
+  }
+  @media screen and (max-width: 575px) {
+    width: 100%;
+    padding: 0;
+    text-align: center;
   }
 }
 .hero__title {
@@ -35,6 +43,14 @@
     font-size: 36px;
     line-height: 45px;
   }
+  @media screen and (max-width: 575px) {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 .hero__paragraf {
   margin-bottom: 60px;
@@ -56,10 +72,14 @@
     font-size: 16px;
     line-height: 24px;
   }
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 .hero__button {
   max-width: 438px;
-  padding: 32px 116px;
+  padding: 32px 100px;
   font-family: Poppins, 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -85,11 +105,18 @@
     font-size: 18px;
     line-height: 27px;
   }
+  @media screen and (max-width: 320px) {
+    padding: 20px 70px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 .hero__img {
   display: flex;
   width: 50%;
-
+  @media screen and (max-width: 575px) {
+    width: 100%;
+  }
   & > img {
     width: 100%;
   }

@@ -10,6 +10,13 @@
   @media screen and (max-width: 992px) {
     height: 250px;
   }
+  @media screen and (max-width: 767px) {
+    height: 190px;
+  }
+  @media screen and (max-width: 575px) {
+    height: 100%;
+    margin-bottom: 20px;
+  }
 }
 .pricing__img > img {
   width: 100%;
@@ -28,11 +35,24 @@
     font-size: 36px;
     line-height: 80px;
   }
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+    line-height: 80px;
+  }
 }
 .pricing__list {
   display: flex;
   justify-content: center;
   margin: -7px;
+  @media screen and (max-width: 575px) {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+  @media screen and (max-width: 321px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 .picing__item {
   display: flex;
@@ -42,7 +62,10 @@
   width: 435px;
   margin: 7px;
   @media screen and (max-width: 992px) {
-    width: 320px;
+    max-width: 320px;
+  }
+  @media screen and (max-width: 575px) {
+    align-items: center;
   }
 }
 .picing__item-title {
@@ -58,6 +81,14 @@
     font-size: 22px;
     line-height: 34px;
   }
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @media screen and (max-width: 321px) {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 .picing__item-text {
   margin-bottom: 25px;
@@ -72,6 +103,17 @@
     font-size: 16px;
     line-height: 24px;
   }
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @media screen and (max-width: 575px) {
+    text-align: center;
+  }
+  @media screen and (max-width: 321px) {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 .picing__item-price {
   font-style: normal;
@@ -84,6 +126,14 @@
   @media screen and (max-width: 992px) {
     font-size: 24px;
     line-height: 36px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  @media screen and (max-width: 321px) {
+    font-size: 18px;
+    line-height: 27px;
   }
 }
 .picing__item-currency {
@@ -98,6 +148,10 @@
     font-size: 16px;
     line-height: 24px;
   }
+  @media screen and (max-width: 321px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 .pricing__item-container {
   max-width: 240px;
@@ -108,5 +162,8 @@
 
   @media screen and (max-width: 992px) {
     max-width: 205px;
+  }
+  @media screen and (max-width: 321px) {
+    max-width: 170px;
   }
 }

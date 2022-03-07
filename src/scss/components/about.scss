@@ -4,6 +4,10 @@
 }
 .about__block {
   display: flex;
+  align-items: center;
+  @media screen and (max-width: 575px) {
+    flex-direction: column-reverse;
+  }
 }
 .about__context {
   padding-right: 100px;
@@ -12,6 +16,10 @@
   }
   @media screen and (max-width: 767px) {
     padding-right: 50px;
+  }
+  @media screen and (max-width: 575px) {
+    text-align: center;
+    padding: 0;
   }
 }
 .about__title {
@@ -32,6 +40,9 @@
     font-size: 30px;
     line-height: 80px;
   }
+  @media screen and (max-width: 575px) {
+    text-align: center;
+  }
 }
 .about__text {
   margin-bottom: 35px;
@@ -51,14 +62,26 @@
     font-size: 14px;
     line-height: 21px;
   }
+  @media screen and (max-width: 575px) {
+    margin-bottom: 25px;
+  }
 }
 
 .about__list {
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 575px) {
+    justify-content: space-around;
+  }
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+  }
 }
 .about__item {
   text-align: center;
+  @media screen and (max-width: 320px) {
+    margin: 20px;
+  }
 }
 .about__item-title {
   font-style: normal;
@@ -75,6 +98,10 @@
   @media screen and (max-width: 767px) {
     font-size: 22px;
     line-height: 80px;
+  }
+  @media screen and (max-width: 575px) {
+    font-size: 24px;
+    line-height: 50px;
   }
 }
 .about__item-text {
@@ -98,5 +125,16 @@
 .about__image > img {
   @media screen and (max-width: 992px) {
     height: 336px;
+  }
+  @media screen and (max-width: 767px) {
+    height: 295px;
+  }
+  @media screen and (max-width: 575px) {
+    margin-bottom: 25px;
+    height: 350px;
+  }
+  @media screen and (max-width: 320px) {
+    margin-bottom: 25px;
+    height: 280px;
   }
 }

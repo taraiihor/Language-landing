@@ -9,6 +9,9 @@
     padding-top: 20px;
     padding-bottom: 30px;
   }
+  @media screen and (max-width: 321px) {
+    flex-direction: column;
+  }
 }
 .footer__list {
   display: flex;
@@ -25,6 +28,16 @@
   @media screen and (max-width: 992px) {
     font-size: 16px;
     line-height: 24px;
+  }
+  @media screen and (max-width: 565px) {
+    padding: 3px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  @media screen and (max-width: 321px) {
+    padding: 3px;
+    font-size: 11px;
+    line-height: 16px;
   }
 
   & > a {

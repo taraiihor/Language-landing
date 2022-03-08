@@ -3,6 +3,9 @@
   display: flex;
   align-items: center;
   padding-bottom: 70px;
+  @media screen and (max-width: 767px) {
+    padding-bottom: 25px;
+  }
   @media screen and (max-width: 575px) {
     flex-direction: column-reverse;
   }

@@ -1,6 +1,10 @@
 .skills__section {
   padding-top: 70px;
   padding-bottom: 70px;
+  @media screen and (max-width: 767px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 .skills__title {
   margin-bottom: 90px;

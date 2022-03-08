@@ -1,22 +1,40 @@
 .contact__section {
   padding-top: 70px;
   padding-bottom: 70px;
+  @media screen and (max-width: 767px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 .contact__image {
+  flex: 0 1 30%;
+  margin-right: 100px;
   @media screen and (max-width: 992px) {
-    height: 280px;
+    margin-right: 90px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-right: 40px;
+  }
+  @media screen and (max-width: 565px) {
+    margin-right: 0;
   }
 }
 .contact__image > img {
-  width: 100%;
+  max-width: 100%;
+  // height: 100%;
 }
 .contact__block {
   display: flex;
+  align-items: center;
+  @media screen and (max-width: 565px) {
+    flex-direction: column;
+  }
 }
 .contact__context {
-  margin-left: 100px;
+  flex: 0 1 70%;
 }
 .contact__title {
+  text-align: center;
   margin-bottom: 35px;
   font-style: normal;
   font-weight: 600;
@@ -28,6 +46,16 @@
   @media screen and (max-width: 992px) {
     margin-bottom: 5px;
     font-size: 36px;
+    line-height: 80px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 80px;
+  }
+  @media screen and (max-width: 321px) {
+    margin-bottom: 5px;
+    font-size: 24px;
     line-height: 80px;
   }
 }
@@ -44,13 +72,23 @@
     font-size: 16px;
     line-height: 24px;
   }
+  @media screen and (max-width: 565px) {
+    text-align: center;
+  }
+  @media screen and (max-width: 321px) {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
 .contact__form {
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 321px) {
+    flex-direction: column;
+  }
 }
 .contact__input {
-  width: 450px;
+  flex: auto;
   border: 1px solid #8f95a5;
   box-sizing: border-box;
   border-radius: 10px;
@@ -64,14 +102,24 @@
   /* identical to box height */
 
   color: #8f95a5;
+
+  margin-right: 20px;
   @media screen and (max-width: 992px) {
-    width: 323px;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-right: 14px;
+    margin-right: 15px;
     font-size: 14px;
     line-height: 21px;
+  }
+  @media screen and (max-width: 321px) {
+    margin-right: 0;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    line-height: 18px;
   }
 }
 .contact__button {
@@ -93,5 +141,10 @@
     padding: 20px 56px;
     font-size: 16px;
     line-height: 24px;
+  }
+  @media screen and (max-width: 321px) {
+    padding: 15px 0;
+    font-size: 14px;
+    line-height: 21px;
   }
 }

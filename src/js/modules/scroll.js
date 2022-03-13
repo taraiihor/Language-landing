@@ -3,22 +3,15 @@ const hederSectiot = document.querySelector('.header');
 const anchors = document.querySelectorAll('header a[href*="#"]');
 
 const buttonBurger = document.querySelector('.menu__burger');
-const popap = document.querySelector('.popap');
-const menu = document.querySelector('nav').cloneNode(1);
+const menuNav = document.querySelector('.menu__list');
 
 //відкриває закриває бургер меню
-buttonBurger.addEventListener('click', openBurger);
+buttonBurger.addEventListener('click', isOpen);
 
-function openBurger(e) {
+function isOpen(e) {
   e.preventDefault();
   document.body.classList.toggle('lock');
-  popap.classList.toggle('open');
-  menu.classList.toggle('open');
-  renderMenu();
-}
-
-function renderMenu() {
-  popap.appendChild(menu);
+  menuNav.classList.toggle('open');
 }
 
 //плавний скрол по меню
@@ -32,11 +25,9 @@ anchors.forEach(link => {
     const offsetPosition = elementPosition - topOffset;
 
     //провірка чи відкритий попап якщо так то закривається
-    if (popap.classList.contains('open')) {
+    if (menuNav.classList.contains('open')) {
       document.body.classList.remove('lock');
-      popap.classList.remove('open');
-      menu.classList.remove('open');
-      renderMenu();
+      menuNav.classList.remove('open');
     }
 
     window.scrollBy({

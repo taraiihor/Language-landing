@@ -83,7 +83,7 @@
 .contact__form {
   display: flex;
   justify-content: space-between;
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 565px) {
     flex-direction: column;
   }
 }
@@ -112,7 +112,7 @@
     font-size: 14px;
     line-height: 21px;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 565px) {
     margin-right: 0;
     margin-bottom: 10px;
     padding-left: 25px;
@@ -142,7 +142,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 565px) {
     padding: 15px 0;
     font-size: 14px;
     line-height: 21px;

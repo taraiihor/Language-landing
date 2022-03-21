@@ -501,7 +501,7 @@ p {
 }
 
 .hero__text {
-  width: 50%;
+  flex: 60%;
   padding-right: 100px;
 }
 
@@ -540,15 +540,6 @@ p {
   border: none;
   background: #263238;
   border-radius: 15px;
-}
-
-.hero__img {
-  display: flex;
-  width: 50%;
-}
-
-.hero__img > img {
-  width: 100%;
 }
 
 .skills__section {
@@ -604,11 +595,6 @@ p {
   margin-bottom: 5px;
 }
 
-.skills__img > img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .skills__item-title {
   margin-bottom: 5px;
   font-style: normal;
@@ -657,6 +643,7 @@ p {
 }
 
 .about__context {
+  flex: 70%;
   padding-right: 100px;
 }
 
@@ -717,10 +704,6 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-}
-
-.pricing__img > img {
-  width: 100%;
 }
 
 .pricing__title {
@@ -1009,10 +992,6 @@ body.lock {
     line-height: 24px;
   }
 
-  .about__image > img {
-    height: 336px;
-  }
-
   .pricing__img {
     height: 250px;
   }
@@ -1260,10 +1239,6 @@ body.lock {
     line-height: 19px;
   }
 
-  .about__image > img {
-    height: 295px;
-  }
-
   .pricing__section {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -1327,10 +1302,6 @@ body.lock {
   .hero__title {
     font-size: 34px;
     line-height: 45px;
-  }
-
-  .hero__img {
-    width: 100%;
   }
 
   .skills__title {
@@ -1401,7 +1372,6 @@ body.lock {
 
   .about__image > img {
     margin-bottom: 25px;
-    height: 350px;
   }
 
   .pricing__img {
@@ -1572,6 +1542,5 @@ body.lock {
 
   .about__image > img {
     margin-bottom: 25px;
-    height: 280px;
   }
 }

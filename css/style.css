@@ -494,7 +494,7 @@ p {
 }
 
 .hero__section {
-  padding-top: 100px;
+  padding-top: 130px;
   display: flex;
   align-items: center;
   padding-bottom: 70px;
@@ -898,6 +898,12 @@ body.lock {
   overflow: hidden;
 }
 
+@media screen and (min-width: 1440px) {
+  .hero__section {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .logo {
     font-size: 30px;
@@ -1156,7 +1162,7 @@ body.lock {
 
   .hero__section {
     padding-bottom: 25px;
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   .hero__text {
@@ -1290,6 +1296,7 @@ body.lock {
 
 @media screen and (max-width: 575px) {
   .hero__section {
+    padding-top: 50px;
     flex-direction: column-reverse;
   }
 

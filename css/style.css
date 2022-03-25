@@ -442,7 +442,6 @@ p {
   font-weight: normal;
   font-size: 36px;
   line-height: 54px;
-  /* identical to box height */
   color: #000000;
 }
 
@@ -466,7 +465,6 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height */
   padding: 5px 15px;
 }
 
@@ -501,7 +499,7 @@ p {
 }
 
 .hero__text {
-  flex: 75%;
+  flex: 60%;
   padding-right: 100px;
 }
 
@@ -510,9 +508,8 @@ p {
   font-family: Poppins, "Mulish", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 80px;
-  /* or 125% */
   color: #000000;
 }
 
@@ -534,7 +531,6 @@ p {
   font-weight: normal;
   font-size: 36px;
   line-height: 54px;
-  /* identical to box height */
   color: #ffffff;
   cursor: pointer;
   border: none;
@@ -548,13 +544,12 @@ p {
 }
 
 .skills__title {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 80px;
-  /* identical to box height, or 167% */
   color: #000000;
 }
 
@@ -624,7 +619,6 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height */
   color: #ffffff;
   cursor: pointer;
   background: #263238;
@@ -648,12 +642,12 @@ p {
 }
 
 .about__title {
-  margin-bottom: 25px;
+  text-align: center;
+  margin-bottom: 60px;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 80px;
-  /* identical to box height, or 167% */
   color: #000000;
 }
 
@@ -681,7 +675,6 @@ p {
   font-weight: 600;
   font-size: 48px;
   line-height: 80px;
-  /* identical to box height, or 167% */
   color: #2a3246;
 }
 
@@ -690,7 +683,6 @@ p {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height */
   color: #8f95a5;
 }
 
@@ -708,12 +700,12 @@ p {
 
 .pricing__title {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 80px;
-  /* identical to box height, or 167% */
   color: #000000;
 }
 
@@ -738,7 +730,6 @@ p {
   font-weight: 600;
   font-size: 30px;
   line-height: 48px;
-  /* identical to box height, or 160% */
   color: #263238;
 }
 
@@ -757,7 +748,6 @@ p {
   font-weight: normal;
   font-size: 30px;
   line-height: 45px;
-  /* identical to box height */
   color: #263238;
 }
 
@@ -766,7 +756,6 @@ p {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
   color: #546269;
 }
 
@@ -787,10 +776,6 @@ p {
   margin-right: 100px;
 }
 
-.contact__image > img {
-  max-width: 100%;
-}
-
 .contact__block {
   display: flex;
   align-items: center;
@@ -802,12 +787,12 @@ p {
 
 .contact__title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
+  text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 80px;
-  /* identical to box height, or 167% */
   color: #000000;
 }
 
@@ -837,7 +822,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
   color: #8f95a5;
   margin-right: 20px;
 }
@@ -848,7 +832,6 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  /* identical to box height */
   color: #ffffff;
   cursor: pointer;
   border: none;
@@ -876,7 +859,6 @@ p {
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
 }
 
 .footer__item > a {
@@ -927,6 +909,7 @@ body.lock {
   }
 
   .hero__text {
+    flex: 70%;
     padding-right: 50px;
   }
 
@@ -949,7 +932,7 @@ body.lock {
   }
 
   .skills__title {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-size: 36px;
     line-height: 80px;
   }
@@ -979,6 +962,7 @@ body.lock {
   }
 
   .about__title {
+    margin-bottom: 40px;
     font-size: 36px;
     line-height: 80px;
   }
@@ -1003,6 +987,7 @@ body.lock {
   }
 
   .pricing__title {
+    margin-bottom: 40px;
     font-size: 36px;
     line-height: 80px;
   }
@@ -1040,7 +1025,7 @@ body.lock {
   }
 
   .contact__title {
-    margin-bottom: 5px;
+    margin-bottom: 40px;
     font-size: 36px;
     line-height: 80px;
   }
@@ -1078,8 +1063,6 @@ body.lock {
 
   .container {
     max-width: 992px;
-    padding-left: 30px;
-    padding-right: 30px;
   }
 }
 
@@ -1193,7 +1176,7 @@ body.lock {
   }
 
   .skills__title {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 30px;
     line-height: 80px;
   }
@@ -1224,7 +1207,7 @@ body.lock {
   }
 
   .about__title {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     font-size: 30px;
     line-height: 80px;
   }
@@ -1255,6 +1238,7 @@ body.lock {
   }
 
   .pricing__title {
+    margin-bottom: 30px;
     font-size: 30px;
     line-height: 80px;
   }
@@ -1283,8 +1267,12 @@ body.lock {
     margin-right: 40px;
   }
 
+  .contact__block {
+    flex-direction: column;
+  }
+
   .contact__title {
-    margin-bottom: 5px;
+    margin-bottom: 30px;
     font-size: 30px;
     line-height: 80px;
   }
@@ -1312,7 +1300,7 @@ body.lock {
   }
 
   .skills__title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .skills__list {
@@ -1361,6 +1349,7 @@ body.lock {
   }
 
   .about__title {
+    margin-bottom: 20px;
     text-align: center;
   }
 
@@ -1386,6 +1375,10 @@ body.lock {
     margin-bottom: 20px;
   }
 
+  .pricing__title {
+    margin-bottom: 20px;
+  }
+
   .pricing__list {
     flex-direction: column;
     margin: 0;
@@ -1400,20 +1393,12 @@ body.lock {
     text-align: center;
   }
 
-  .container {
-    max-width: 575px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media screen and (max-width: 565px) {
   .contact__image {
     margin-right: 0;
   }
 
-  .contact__block {
-    flex-direction: column;
+  .contact__title {
+    margin-bottom: 20px;
   }
 
   .contact__text {
@@ -1446,8 +1431,12 @@ body.lock {
 
   .footer__item {
     padding: 3px;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .container {
+    max-width: 575px;
   }
 }
 
@@ -1458,16 +1447,53 @@ body.lock {
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
   .logo {
     font-size: 24px;
     line-height: 36px;
+  }
+
+  .hero__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .hero__paragraf {
+    font-size: 14px;
+    line-height: 21px;
   }
 
   .hero__button {
     padding: 20px 65px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .skills__title {
+    font-size: 24px;
+    line-height: 80px;
+  }
+
+  .about__title {
+    font-size: 24px;
+    line-height: 80px;
+  }
+
+  .about__list {
+    flex-direction: column;
+  }
+
+  .about__item {
+    margin: 20px;
+  }
+
+  .about__image > img {
+    margin-bottom: 25px;
+  }
+
+  .pricing__title {
+    font-size: 24px;
+    line-height: 80px;
   }
 
   .pricing__list {
@@ -1500,7 +1526,6 @@ body.lock {
   }
 
   .contact__title {
-    margin-bottom: 5px;
     font-size: 24px;
     line-height: 80px;
   }
@@ -1510,44 +1535,9 @@ body.lock {
     line-height: 21px;
   }
 
-  .footer__item {
-    padding: 3px;
-    font-size: 11px;
-    line-height: 16px;
-  }
-
   .container {
-    max-width: 321px;
+    max-width: 320px;
     padding-left: 10px;
     padding-right: 10px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .hero__title {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .hero__paragraf {
-    font-size: 14px;
-    line-height: 21px;
-  }
-
-  .skills__title {
-    font-size: 24px;
-    line-height: 80px;
-  }
-
-  .about__list {
-    flex-direction: column;
-  }
-
-  .about__item {
-    margin: 20px;
-  }
-
-  .about__image > img {
-    margin-bottom: 25px;
   }
 }

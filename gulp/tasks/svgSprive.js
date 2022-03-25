@@ -15,7 +15,7 @@ export const svgSprive = () => {
       svgSprite({
         mode: {
           stack: {
-            sprite: `../svg/icons.svg`,
+            sprite: `../icons.svg`,
             // Создавать страницу с перечнем иконок
             example: true,
           },

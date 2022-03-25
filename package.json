@@ -35,7 +35,7 @@
     "gulp-svg-sprite": "^1.5.0",
     "gulp-ttf2woff2": "^4.0.1",
     "gulp-webp": "^4.0.1",
-    "gulp-webp-html-nosvg": "^1.0.4",
+    "gulp-webp-html-nosvg": "^1.0.6",
     "gulp-webpcss": "^1.1.1",
     "sass": "^1.49.0",
     "webp-converter": "2.2.3",

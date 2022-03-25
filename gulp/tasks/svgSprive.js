@@ -8,17 +8,19 @@ export const svgSprive = () => {
         app.plugins.notify.onError({
           title: 'SVG',
           message: 'Error: <%= error.message %>',
-        })
-      )
+        }),
+      ),
     )
     .pipe(
       svgSprite({
         mode: {
           stack: {
-            sprite: '../icons/icons.svg',
+            sprite: `../svg/icons.svg`,
+            // Создавать страницу с перечнем иконок
+            example: true,
           },
         },
-      })
+      }),
     )
-    .pipe(app.gulp.dest(`${app.path.build.image}`));
+    .pipe(app.gulp.dest(`${app.path.build.images}`));
 };

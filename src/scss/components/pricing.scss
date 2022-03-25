@@ -22,25 +22,32 @@
     margin-bottom: 20px;
   }
 }
-.pricing__img > img {
-  width: 100%;
-}
 .pricing__title {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  text-align: center;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 80px;
-  /* identical to box height, or 167% */
 
   color: #000000;
+
   @media screen and (max-width: 992px) {
+    margin-bottom: 40px;
     font-size: 36px;
     line-height: 80px;
   }
   @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
     font-size: 30px;
+    line-height: 80px;
+  }
+  @media screen and (max-width: 575px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 24px;
     line-height: 80px;
   }
 }
@@ -53,7 +60,7 @@
     margin: 0;
     align-items: center;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 320px) {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -78,7 +85,6 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 48px;
-  /* identical to box height, or 160% */
 
   color: #263238;
   @media screen and (max-width: 992px) {
@@ -89,7 +95,7 @@
     font-size: 20px;
     line-height: 28px;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 320px) {
     font-size: 18px;
     line-height: 28px;
   }
@@ -114,7 +120,7 @@
   @media screen and (max-width: 575px) {
     text-align: center;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 320px) {
     font-size: 13px;
     line-height: 20px;
   }
@@ -124,7 +130,6 @@
   font-weight: normal;
   font-size: 30px;
   line-height: 45px;
-  /* identical to box height */
 
   color: #263238;
   @media screen and (max-width: 992px) {
@@ -135,7 +140,7 @@
     font-size: 22px;
     line-height: 33px;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 320px) {
     font-size: 18px;
     line-height: 27px;
   }
@@ -145,14 +150,13 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
 
   color: #546269;
   @media screen and (max-width: 992px) {
     font-size: 16px;
     line-height: 24px;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 320px) {
     font-size: 14px;
     line-height: 24px;
   }
@@ -167,7 +171,7 @@
   @media screen and (max-width: 992px) {
     max-width: 205px;
   }
-  @media screen and (max-width: 321px) {
+  @media screen and (max-width: 320px) {
     max-width: 170px;
   }
 }

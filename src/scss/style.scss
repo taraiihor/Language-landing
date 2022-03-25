@@ -15,19 +15,15 @@
   margin: 0 auto;
   @media screen and (max-width: 992px) {
     max-width: 992px;
-    padding-left: 30px;
-    padding-right: 30px;
   }
   @media screen and (max-width: 767px) {
     max-width: 767px;
   }
   @media screen and (max-width: 575px) {
     max-width: 575px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
-  @media screen and (max-width: 321px) {
-    max-width: 321px;
+  @media screen and (max-width: 320px) {
+    max-width: 320px;
     padding-left: 10px;
     padding-right: 10px;
   }

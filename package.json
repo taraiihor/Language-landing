@@ -4,17 +4,20 @@
   "description": "",
   "main": "gulpfile.js",
   "type": "module",
+  "homepage": "https://taraiihor.github.io/Language-landing/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp",
     "build": "gulp build --build",
-    "svgSprive": "gulp svgSprive"
+    "svgSprive": "gulp svgSprive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "FLS",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
+    "gh-pages": "^3.2.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
